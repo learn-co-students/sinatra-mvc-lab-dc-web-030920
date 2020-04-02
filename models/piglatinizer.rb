@@ -1,5 +1,5 @@
 require 'pry'
-class Piglatinizer
+class PigLatinizer
     # if word starts with consonant add all consonants until vowel +"-ay" at the end i.e. flatiron would be atironflay
     #
     # else add "-way" add the end if begins with vowel
@@ -14,7 +14,7 @@ class Piglatinizer
     end
 
     # checks if the first letter of each word is consonants 
-    def consonat_checker(words)
+    def piglatinize(words)
       
         # "flat iron"
         # change the words in to an arry of words
